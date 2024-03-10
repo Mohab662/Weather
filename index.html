@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="shortcut icon" href="Home/imeges/weather-2021-12-07.png" type="image/x-icon">
+    <link rel="stylesheet" href="Home/css/all.min.css">
+    <link rel="stylesheet" href="Home/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Home/css/media.css">
+    <link rel="stylesheet" href="Home/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg py-5" id="navId">
+        <div class="container">
+            
+          <a  class="navbar-brand ms-3 fw700-fs-16 d-flex align-items-center" href="#">
+            <div><img  src="Home/imeges/logo (1).png" alt=""></div>
+            <div class="ms-2">
+                <h2 class="mt-1 fw700-fs-16">Weather</h2>
+                <h6 class="fw300-fs-10">tagline goes here</h6>
+            </div>
+        </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto  mb-2 mb-lg-0">
+              <li class="nav-item  ">
+                <a onclick="myHome()" class="nav-link mx-1 marke active fw400-fs-14" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link mx-1 fw400-fs-14" aria-current="page" href="#">News</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link mx-1 fw400-fs-14" aria-current="page" href="#">Live Cameras</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link mx-1 fw400-fs-14" aria-current="page" href="#">Photos</a>
+              </li>
+              <li class="nav-item ">
+                <a onclick="myContact()" class="nav-link mx-1 fw400-fs-14" aria-current="page" href="#contact">Contact</a>
+              </li>
+          
+    
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="">
+        <div class="main-first">
+          <div class="container pt-5">
+            <form class="fomm">
+              <input oninput="gett(this.value)" type="text" placeholder="Find your location.." id="search">
+              <input type="button" value="Find" id="submit">
+            </form>
+          </div>
+        </div>
+      <div class="container">
+        <div class="test row g-0">
+          <div class="col-lg-4 ">
+            <div>
+              <div class="bg11 px-2 pt-2 top-left d-flex bg-danger">               
+              </div>
+              <div class="py-4 bg1 h250 px-2 middle-left"> 
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 ">
+            <div> 
+              <div class="bg2 px-2 pt-2 top-middlle d-flex justify-content-center">               
+            </div>
+            <div class="bg22 h250 middlle-middlle d-flex flex-column justify-content-center align-items-center text-center">             
+            </div>      
+          </div>
+          </div>
+          <div class="col-lg-4 ">
+            <div> 
+              <div id="DayThreeTop" class="bg1 px-2 pt-2 top-middlle d-flex justify-content-center bg-danger">             
+            </div>
+            <div id="DayThreeMiddlle" class="bg11 h250 middlle-middlle d-flex flex-column justify-content-center align-items-center bg-warning text-center">
+            </div>            
+          </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+      </section>
+
+
+      <footer id="footer" class="py-5">
+        <div class="container">
+          <div class=" row me-0 " >
+            <div class="col-md-8 ">
+              <div> 
+              <form class="fomm">
+              <input type="text" placeholder="Find your location.." id="search">
+              <input type="button" value="Find" id="submit">
+            </form>
+          </div></div>
+            <div class="col-md-3 offset-md-1">
+              <div class="may-ico d-flex">
+                <div><a href="#"><i class="fa-brands fa-facebook-f"></i></a></div>
+                <div><a href="#"><i class="fa-brands fa-twitter"></i></a></div>
+                <div><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></div>
+                <div><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></div>           
+            </div></div>
+            <div class="col-md-12 mt-4">
+              <div>
+                <p>
+                  Copyright 2014 Company name. Designed by Themezy. All rights reserved
+                </p>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      
+      </footer>
+    
+
+    <script src="Home/js/bootstrap.bundle.min.js"></script>
+    <script src="Home/js/main.js"></script>
+</body>
+</html>
